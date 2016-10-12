@@ -76,6 +76,18 @@ module UserContestScope
         end
     }
 
+    # Given a feedback question ID, this shows table of user contest id
+    # + who do not answer that feedback question. (LEFT OUTER JOIN)
+    scope :include_blank_feedback_answers, lambda { |feedback_question_id|
+      joining { feedback_answers.outer.alias('feedback_answers').
+                on((id == feedback_answers.user_contest_id) &
+                    (feedback_answers.feedback_question_id == feedback_question_id)) }
+        .where.has { feedback_answers.feedback_question_id == nil }
+        .selecting {
+          id
+        }
+    }
+
     CUTOFF_CERTIFICATE = 1
     # Add this scope to filter that has high enough score to get certificates
     scope :eligible_score, lambda {
