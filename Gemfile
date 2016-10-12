@@ -59,6 +59,7 @@ gem 'schema_validations', github: 'donjar/schema_validations'
 gem 'validates_timeliness'
 # Allows more complex SQL queries
 gem 'squeel'
+gem 'baby_squeel'
 # Adds delayed job queueing for jobs that are executed in the future
 gem 'delayed_job_active_record'
 # Do not generate digests for error pages

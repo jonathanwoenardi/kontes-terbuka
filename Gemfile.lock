@@ -70,6 +70,8 @@ GEM
     ast (2.3.0)
     autoprefixer-rails (6.5.1.1)
       execjs
+    baby_squeel (0.3.1)
+      activerecord (>= 4.0.0)
     bcrypt (3.1.11)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -388,6 +390,7 @@ PLATFORMS
 DEPENDENCIES
   annotate
   autoprefixer-rails
+  baby_squeel
   bcrypt
   bootstrap-sass
   brakeman
