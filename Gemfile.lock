@@ -146,8 +146,10 @@ GEM
     get_process_mem (0.2.1)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
-    haml (4.0.7)
+    haml (5.0.0)
+      temple (>= 0.8.0)
       tilt
+    haml-rails (0.1)
     haml_lint (0.24.0)
       haml (>= 4.0, < 5.1)
       rainbow
@@ -328,6 +330,7 @@ GEM
       net-ssh (>= 2.8.0)
     sysexits (1.2.0)
     table_flipper (0.0.1)
+    temple (0.8.0)
     term-ansicolor (1.6.0)
       tins (~> 1.0)
     therubyracer (0.12.3)
@@ -399,7 +402,8 @@ DEPENDENCIES
   dotenv-rails
   exception_notification
   factory_girl_rails
-  haml
+  haml (>= 5)
+  haml-rails
   haml_lint
   inline_svg
   jquery-rails
