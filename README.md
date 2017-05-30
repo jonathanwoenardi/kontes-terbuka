@@ -8,7 +8,7 @@ Repo ini berisi kode untuk website Kontes Terbuka Olimpiade Matematika yang
 bisa diakses di https://ktom.tomi.or.id. Website ini dibuat oleh dua anggota
 KTO Matematika:
 - Herbert Ilhan Tanujaya (@donjar)
-- Jonathan Mulyawan Woenardi (@woenardi)
+- Jonathan Mulyawan Woenardi (@jonathanwoenardi)
 
 Website ini awalnya dibuat dengan tujuan pembelajaran. Namun, website ini terus
 berkembang hingga menjadi cukup besar.
